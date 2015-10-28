@@ -1,0 +1,141 @@
+body {
+  font-family: Open Sans;
+  line-height: 1.5;
+  margin: 0;
+/*  background-color: #AEA8D3;
+  color: #FFFFFF;*/
+}
+
+h2 {
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 45%;
+  margin-bottom: 45%;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-color: #663399;
+  font-style: bold;
+}
+
+a:hover {
+  background-color: #AEA8D3;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+#logo {
+  max-width: 100px;
+  height: auto;
+  width: auto;
+  position: relative;
+  left: 45%;
+  margin-right: 45%;
+}
+
+ul {
+  text-align: center;
+  text-decoration: none;
+  font-family: Open Sans;
+}
+
+li {
+  display: inline;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  height: auto;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.work-container {
+  padding-bottom: 20px;
+}
+.work {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  background-color: #ECECEC;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  background-color: #2d0c40;
+  color: #ECECEC;
+  padding-bottom: 70px;
+}
+
+.form-container {
+  margin: 0 auto;
+  padding: 5px 50px;
+  max-width: 600px;
+}
+
+#contact-title {
+  margin: 0 auto;
+  padding-top: 40px;
+  margin-bottom: 0px;
+}
+
+form {
+  max-width: 600px;
+}
+
+#submit {
+  background-color: #ECECEC;
+  color: #2d0c40;
+  width: 100px;
+  height: 30px;
+  font-family: Open Sans;
+  font-style: bold;
+  font-size: 14px;
+  float: right;
+}
+/*Lesson 1*/
+
+/*table {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+}*/
+
+/*td {
+  background-color: #ECECEC;
+  width: 200px;
+  height: 200px;
+  padding: 50px;
+  color: black;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+

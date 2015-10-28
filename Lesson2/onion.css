@@ -1,0 +1,30 @@
+h1 {
+  color: #019875;
+  font-family: Georgia, serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  text-align: center;
+}
+
+.like {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+}
+
+p {
+  line-height: 19px;
+}

@@ -1,0 +1,54 @@
+body {
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+.button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  font-family: Helvetica;
+  font-weight: 800px;
+  font-size: 16px;
+  display: inline-block;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.button:hover {
+  background-color: purple;
+  text-decoration: none;
+}
+
+.button:active {
+  border-radius: 10px;
+  border-radius-color: black;
+}
+
+p {
+  font-family: Helvetica;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  font-weight: 400;
+  font-color: purple;
+}
+
+nav {
+  display: inline;
+}
+
+ul {
+  display: inline-block;
+  border-color: black;
+  padding: 0px;
+}
+
+li {
+  margin: 0px;
+  border: 2px solid black;
+  display: inline-block;
+  color: black;
+  padding: 10px;
+  background-color: white;
+}

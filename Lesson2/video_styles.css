@@ -1,0 +1,39 @@
+h1 {
+  font-family: Open Sans;
+}
+
+.container {
+  background-color: "#F2F1EF";
+  margin: 0 auto;
+  max-width: 800px;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.musicals {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+}
+
+#logo {
+  max-width: 100px;
+  height: auto;
+  width: auto;
+  position: relative;
+  left: 45%;
+  margin-right: 45%;
+}
+
+ul {
+  text-align: center;
+  text-decoration: none;
+  font-family: Open Sans;
+}
+
+li {
+  display: inline;
+  padding: 20px;
+}

@@ -1,0 +1,23 @@
+body {
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+#sidebar {
+  position: relative;
+  padding-left: 20px;
+  float: right;
+}
+
+#main {
+  width: ;
+}
+
+#sidebar-links {
+  font-style: bold;
+}

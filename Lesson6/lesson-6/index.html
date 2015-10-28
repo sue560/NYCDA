@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      h1 {
+        height: 200px;
+        background-color: yellowgreen;
+      }
+
+      .subtitle {
+        width: 100%;
+        background-color: lightpink;
+      }
+
+      .box-1 {
+        float: left;
+        width: 200px;
+        height: 200px;
+        color: white;
+        background-color: teal;
+      }
+
+      .box-2 {
+        float: left;
+        width: 200px;
+        height: 200px;
+        color: white;
+        background-color: red;
+      }
+
+      .box-3 {
+        float: left;
+        width: 200px;
+        height: 200px;
+        color: white;
+        background-color: lightblue;
+      }
+
+      .box-4 {
+        float: left;
+        width: 200px;
+        height: 200px;
+        color: white;
+        background-color: lightgreen;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Title</h1>
+    <h2 class="subtitle">Subtitle</h2>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
+
+    <div class="box-1">Box 1</div>
+
+    <div class="box-2">Box 2</div>
+
+    <div class="box-3">Box 3 (click me)</div>
+
+    <div class="box-4">Box 4</div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("h1").animate({
+          width: 100,
+          opacity: 0.3
+        }, 1000);
+
+        $(".subtitle").animate({
+          width: "50%",
+          opacity: 0.5
+        }, 3000);
+
+        $("p").hide(3000, function() {
+          $("p").show(3000);
+        });
+
+        $(".box-1").fadeOut(1000, function() {
+          $(".box-1").fadeIn(1000);
+        });
+
+        $(".box-2").animate({
+          opacity: 0.5
+        }, 2000);
+
+        $(".box-3").click(function() {
+          alert("Hello World!");
+        });
+
+        $(".box-4").slideUp(1000, function() {
+          // callback function, runs after box-4 slides up
+          $(".box-4").slideDown(1000, function () {
+            // callback function, runs after box-4 slides down
+            $(".box-4").slideUp(1000, function() {
+              // callback function, runs after box-4 slides up
+              $(".box-4").slideDown(1000);
+            });
+          });
+        });
+
+        //another way to do lines 93-102, except will run forever, why?
+        // var slideDown = function() {
+        //   $(".box-4").slideDown(1000, slideUp);
+        // };
+
+        // var slideUp = function() {
+        //   $(".box-4").slideUp(1000, slideDown);
+        // };
+
+        // slideUp();
+      });
+    </script>
+  </body>
+</html>
